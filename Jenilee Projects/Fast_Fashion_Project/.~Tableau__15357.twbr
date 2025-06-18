@@ -1,0 +1,1641 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0520.1026                               -->
+<workbook original-version='18.1' source-build='2025.1.2 (20251.25.0520.1026)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneFriendlyName />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='true_cost_fast_fashion' inline='true' name='federated.0fxnkgh0v67wbf11hm7z20fa9hx6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='true_cost_fast_fashion' name='textscan.0b2ir0z1msss381epnr2j1hnlg1c'>
+            <connection class='textscan' directory='/Users/jenileechen/Desktop/Data_Analyst/Projects Folder/Jenilee Projects/Fast_Fashion_Project' filename='true_cost_fast_fashion.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0b2ir0z1msss381epnr2j1hnlg1c' name='true_cost_fast_fashion.csv' table='[true_cost_fast_fashion#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Brand' ordinal='0' />
+            <column datatype='string' name='Country' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='real' name='Monthly_Production_Tonnes' ordinal='3' />
+            <column datatype='real' name='Avg_Item_Price_USD' ordinal='4' />
+            <column datatype='integer' name='Release_Cycles_Per_Year' ordinal='5' />
+            <column datatype='real' name='Carbon_Emissions_tCO2e' ordinal='6' />
+            <column datatype='real' name='Water_Usage_Million_Litres' ordinal='7' />
+            <column datatype='real' name='Landfill_Waste_Tonnes' ordinal='8' />
+            <column datatype='real' name='Avg_Worker_Wage_USD' ordinal='9' />
+            <column datatype='integer' name='Working_Hours_Per_Week' ordinal='10' />
+            <column datatype='integer' name='Child_Labor_Incidents' ordinal='11' />
+            <column datatype='real' name='Return_Rate_Percent' ordinal='12' />
+            <column datatype='real' name='Avg_Spend_Per_Customer_USD' ordinal='13' />
+            <column datatype='integer' name='Shopping_Frequency_Per_Year' ordinal='14' />
+            <column datatype='integer' name='Instagram_Mentions_Thousands' ordinal='15' />
+            <column datatype='integer' name='TikTok_Mentions_Thousands' ordinal='16' />
+            <column datatype='real' name='Sentiment_Score' ordinal='17' />
+            <column datatype='string' name='Social_Sentiment_Label' ordinal='18' />
+            <column datatype='real' name='GDP_Contribution_Million_USD' ordinal='19' />
+            <column datatype='real' name='Env_Cost_Index' ordinal='20' />
+            <column datatype='real' name='Sustainability_Score' ordinal='21' />
+            <column datatype='real' name='Transparency_Index' ordinal='22' />
+            <column datatype='real' name='Compliance_Score' ordinal='23' />
+            <column datatype='real' name='Ethical_Rating' ordinal='24' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly_Production_Tonnes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Monthly_Production_Tonnes]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Monthly_Production_Tonnes</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Item_Price_USD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Item_Price_USD]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Avg_Item_Price_USD</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Release_Cycles_Per_Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Release_Cycles_Per_Year]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Release_Cycles_Per_Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carbon_Emissions_tCO2e</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Carbon_Emissions_tCO2e]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Carbon_Emissions_tCO2e</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Water_Usage_Million_Litres</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Water_Usage_Million_Litres]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Water_Usage_Million_Litres</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Landfill_Waste_Tonnes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Landfill_Waste_Tonnes]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Landfill_Waste_Tonnes</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Worker_Wage_USD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Worker_Wage_USD]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Avg_Worker_Wage_USD</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Working_Hours_Per_Week</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Working_Hours_Per_Week]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Working_Hours_Per_Week</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Child_Labor_Incidents</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Child_Labor_Incidents]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Child_Labor_Incidents</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Return_Rate_Percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Return_Rate_Percent]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Return_Rate_Percent</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Spend_Per_Customer_USD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Spend_Per_Customer_USD]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Avg_Spend_Per_Customer_USD</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shopping_Frequency_Per_Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shopping_Frequency_Per_Year]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Shopping_Frequency_Per_Year</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Instagram_Mentions_Thousands</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Instagram_Mentions_Thousands]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Instagram_Mentions_Thousands</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TikTok_Mentions_Thousands</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TikTok_Mentions_Thousands]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>TikTok_Mentions_Thousands</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sentiment_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sentiment_Score]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Sentiment_Score</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social_Sentiment_Label</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Social_Sentiment_Label]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Social_Sentiment_Label</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GDP_Contribution_Million_USD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GDP_Contribution_Million_USD]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>GDP_Contribution_Million_USD</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Env_Cost_Index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Env_Cost_Index]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Env_Cost_Index</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sustainability_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sustainability_Score]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Sustainability_Score</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transparency_Index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transparency_Index]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Transparency_Index</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Compliance_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Compliance_Score]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Compliance_Score</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ethical_Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ethical_Rating]</local-name>
+            <parent-name>[true_cost_fast_fashion.csv]</parent-name>
+            <remote-alias>Ethical_Rating</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' caption='Avg Item Price USD (Play Around)' datatype='real' name='[Avg Item Price USD (copy)_1080652826543366144]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='[Avg_Item_Price_USD]' />
+      </column>
+      <column caption='Avg Worker Wage USD ' datatype='real' name='[Avg Worker Wage USD (Play Around) (copy)_1080652826544312322]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='IF [Avg_Worker_Wage_USD] &gt;= 0 THEN [Avg_Worker_Wage_USD] END' />
+      </column>
+      <column aggregation='Sum' caption='Avg Worker Wage USD (Play Around)' datatype='real' name='[Avg Worker Wage USD (copy)_1080652826543460353]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='IF [Avg_Worker_Wage_USD] &gt;= 0 THEN [Avg_Worker_Wage_USD] END' />
+      </column>
+      <column caption='Avg Item Price USD' datatype='real' name='[Avg_Item_Price_USD]' role='measure' type='quantitative' />
+      <column caption='Avg Spend Per Customer USD' datatype='real' name='[Avg_Spend_Per_Customer_USD]' role='measure' type='quantitative' />
+      <column caption='Avg Worker Wage USD (Orig)' datatype='real' name='[Avg_Worker_Wage_USD]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+      <column caption='Monthly Carbon Emissions tCO2e' datatype='real' name='[Carbon Emissions tCO2e (copy)_1080652826547007492]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Carbon_Emissions_tCO2e] / 12' />
+      </column>
+      <column caption='Carbon Emissions tCO2e' datatype='real' name='[Carbon_Emissions_tCO2e]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Child Labor Incidents (Dimension)' datatype='integer' name='[Child Labor Incidents (copy)_1080652826548527110]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[Child_Labor_Incidents]' />
+      </column>
+      <column caption='Child Labor Incidents' datatype='integer' name='[Child_Labor_Incidents]' role='measure' type='quantitative' />
+      <column caption='Compliance Score' datatype='real' name='[Compliance_Score]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Env Cost Index' datatype='real' name='[Env_Cost_Index]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[Ethical Rating (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[Ethical_Rating]' peg='0' size='0.178' />
+      </column>
+      <column aggregation='Sum' caption='Ethical Rating (Dimension)' datatype='real' name='[Ethical Rating (copy)_1080652826548457477]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[Ethical_Rating]' />
+      </column>
+      <column caption='Ethical Rating' datatype='real' name='[Ethical_Rating]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='GDP Contribution Million USD (Dimension)' datatype='real' name='[GDP Contribution Million USD (copy)_1080652826553315337]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='IF[GDP_Contribution_Million_USD] &gt;= 0 THEN [GDP_Contribution_Million_USD] END' />
+      </column>
+      <column caption='GDP Contribution Million USD' datatype='real' name='[GDP_Contribution_Million_USD]' role='measure' type='quantitative' />
+      <column caption='Instagram Mentions Thousands' datatype='integer' name='[Instagram_Mentions_Thousands]' role='measure' type='quantitative' />
+      <column caption='Monthly Landfill Waste Tonnes' datatype='real' name='[Landfill Waste Tonnes (copy)_1080652826546597891]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Landfill_Waste_Tonnes] / 12' />
+      </column>
+      <column caption='Landfill Waste Tonnes' datatype='real' name='[Landfill_Waste_Tonnes]' role='measure' type='quantitative' />
+      <column caption='Monthly Production Tonnes' datatype='real' name='[Monthly_Production_Tonnes]' role='measure' type='quantitative' />
+      <column caption='Release Cycles Per Year' datatype='integer' name='[Release_Cycles_Per_Year]' role='dimension' type='quantitative' />
+      <column caption='Return Rate Percent' datatype='real' name='[Return_Rate_Percent]' role='measure' type='quantitative' />
+      <column caption='Sentiment Score' datatype='real' name='[Sentiment_Score]' role='measure' type='quantitative' />
+      <column caption='Shopping Frequency Per Year' datatype='integer' name='[Shopping_Frequency_Per_Year]' role='dimension' type='quantitative' />
+      <column caption='Social Sentiment Label' datatype='string' name='[Social_Sentiment_Label]' role='dimension' type='nominal' />
+      <column caption='Sustainability Score' datatype='real' name='[Sustainability_Score]' role='measure' type='quantitative' />
+      <column caption='TikTok Mentions Thousands' datatype='integer' name='[TikTok_Mentions_Thousands]' role='measure' type='quantitative' />
+      <column caption='Transparency Index' datatype='real' name='[Transparency_Index]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Water Usage Million Litres (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='1' formula='[Water_Usage_Million_Litres]' peg='0' size='11.2' />
+      </column>
+      <column caption='Water Usage Million Litres' datatype='real' name='[Water_Usage_Million_Litres]' role='measure' type='quantitative' />
+      <column caption='Working Hours Per Week' datatype='integer' name='[Working_Hours_Per_Week]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='true_cost_fast_fashion.csv' datatype='table' name='[__tableau_internal_object_id__].[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]' role='measure' type='quantitative' />
+      <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Carbon Emissions tCO2e (copy)_1080652826547007492]' derivation='Sum' name='[sum:Carbon Emissions tCO2e (copy)_1080652826547007492:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Env_Cost_Index]' derivation='Sum' name='[sum:Env_Cost_Index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Ethical_Rating]' derivation='Sum' name='[sum:Ethical_Rating:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Landfill Waste Tonnes (copy)_1080652826546597891]' derivation='Sum' name='[sum:Landfill Waste Tonnes (copy)_1080652826546597891:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Landfill_Waste_Tonnes]' derivation='Sum' name='[sum:Landfill_Waste_Tonnes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Monthly_Production_Tonnes]' derivation='Sum' name='[sum:Monthly_Production_Tonnes:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/n9/_d14tnbj56l6j17vr0j909br0000gn/T/tableau-temp/#TableauTemp_1nqpfv20ulf876129543q1h2vi7l.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/18/2025 01:03:58 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Brand</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Brand]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Brand</remote-alias>
+              <ordinal>0</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>1</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>2</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Monthly_Production_Tonnes</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Monthly_Production_Tonnes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Monthly_Production_Tonnes</remote-alias>
+              <ordinal>3</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2476</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Item_Price_USD</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Item_Price_USD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Item_Price_USD</remote-alias>
+              <ordinal>4</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1212</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Release_Cycles_Per_Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Release_Cycles_Per_Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Release_Cycles_Per_Year</remote-alias>
+              <ordinal>5</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Carbon_Emissions_tCO2e</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Carbon_Emissions_tCO2e]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Carbon_Emissions_tCO2e</remote-alias>
+              <ordinal>6</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2925</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Water_Usage_Million_Litres</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Water_Usage_Million_Litres]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Water_Usage_Million_Litres</remote-alias>
+              <ordinal>7</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2038</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Landfill_Waste_Tonnes</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Landfill_Waste_Tonnes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Landfill_Waste_Tonnes</remote-alias>
+              <ordinal>8</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2400</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Worker_Wage_USD</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Worker_Wage_USD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Worker_Wage_USD</remote-alias>
+              <ordinal>9</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2027</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Working_Hours_Per_Week</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Working_Hours_Per_Week]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Working_Hours_Per_Week</remote-alias>
+              <ordinal>10</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Child_Labor_Incidents</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Child_Labor_Incidents]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Child_Labor_Incidents</remote-alias>
+              <ordinal>11</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Return_Rate_Percent</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Return_Rate_Percent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Return_Rate_Percent</remote-alias>
+              <ordinal>12</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1461</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Spend_Per_Customer_USD</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Spend_Per_Customer_USD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Spend_Per_Customer_USD</remote-alias>
+              <ordinal>13</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1826</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Shopping_Frequency_Per_Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Shopping_Frequency_Per_Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shopping_Frequency_Per_Year</remote-alias>
+              <ordinal>14</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Instagram_Mentions_Thousands</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Instagram_Mentions_Thousands]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Instagram_Mentions_Thousands</remote-alias>
+              <ordinal>15</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1895</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TikTok_Mentions_Thousands</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TikTok_Mentions_Thousands]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TikTok_Mentions_Thousands</remote-alias>
+              <ordinal>16</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1756</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sentiment_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sentiment_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sentiment_Score</remote-alias>
+              <ordinal>17</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>204</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Social_Sentiment_Label</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Social_Sentiment_Label]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Social_Sentiment_Label</remote-alias>
+              <ordinal>18</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GDP_Contribution_Million_USD</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[GDP_Contribution_Million_USD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GDP_Contribution_Million_USD</remote-alias>
+              <ordinal>19</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2626</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Env_Cost_Index</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Env_Cost_Index]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Env_Cost_Index</remote-alias>
+              <ordinal>20</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>91</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sustainability_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sustainability_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sustainability_Score</remote-alias>
+              <ordinal>21</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1797</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Transparency_Index</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Transparency_Index]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Transparency_Index</remote-alias>
+              <ordinal>22</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1737</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Compliance_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Compliance_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Compliance_Score</remote-alias>
+              <ordinal>23</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1848</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ethical_Rating</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ethical_Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ethical_Rating</remote-alias>
+              <ordinal>24</ordinal>
+              <family>true_cost_fast_fashion.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>559</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' palette='purple_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0fxnkgh0v67wbf11hm7z20fa9hx6]&quot;</bucket>
+            </map>
+            <map to='#7c4d79'>
+              <bucket>&quot;[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Ethical_Rating:qk]&quot;</bucket>
+            </map>
+            <map to='#7c4d79'>
+              <bucket>&quot;[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Monthly_Production_Tonnes:qk]&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Carbon Emissions tCO2e (copy)_1080652826547007492:qk]&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Env_Cost_Index:qk]&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Landfill Waste Tonnes (copy)_1080652826546597891:qk]&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Landfill_Waste_Tonnes:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Brand:nk]' palette='purple_10_0' type='palette'>
+            <map to='#7c4d79'>
+              <bucket>&quot;Zara&quot;</bucket>
+            </map>
+            <map to='#986995'>
+              <bucket>&quot;Uniqlo&quot;</bucket>
+            </map>
+            <map to='#bc86a9'>
+              <bucket>&quot;Shein&quot;</bucket>
+            </map>
+            <map to='#d6a6c6'>
+              <bucket>&quot;H&amp;M&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Forever 21&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='true_cost_fast_fashion.csv' id='true_cost_fast_fashion.csv_248B122EEB634BEE96400587C6DDE931'>
+            <properties context=''>
+              <relation connection='textscan.0b2ir0z1msss381epnr2j1hnlg1c' name='true_cost_fast_fashion.csv' table='[true_cost_fast_fashion#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Brand' ordinal='0' />
+                  <column datatype='string' name='Country' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='real' name='Monthly_Production_Tonnes' ordinal='3' />
+                  <column datatype='real' name='Avg_Item_Price_USD' ordinal='4' />
+                  <column datatype='integer' name='Release_Cycles_Per_Year' ordinal='5' />
+                  <column datatype='real' name='Carbon_Emissions_tCO2e' ordinal='6' />
+                  <column datatype='real' name='Water_Usage_Million_Litres' ordinal='7' />
+                  <column datatype='real' name='Landfill_Waste_Tonnes' ordinal='8' />
+                  <column datatype='real' name='Avg_Worker_Wage_USD' ordinal='9' />
+                  <column datatype='integer' name='Working_Hours_Per_Week' ordinal='10' />
+                  <column datatype='integer' name='Child_Labor_Incidents' ordinal='11' />
+                  <column datatype='real' name='Return_Rate_Percent' ordinal='12' />
+                  <column datatype='real' name='Avg_Spend_Per_Customer_USD' ordinal='13' />
+                  <column datatype='integer' name='Shopping_Frequency_Per_Year' ordinal='14' />
+                  <column datatype='integer' name='Instagram_Mentions_Thousands' ordinal='15' />
+                  <column datatype='integer' name='TikTok_Mentions_Thousands' ordinal='16' />
+                  <column datatype='real' name='Sentiment_Score' ordinal='17' />
+                  <column datatype='string' name='Social_Sentiment_Label' ordinal='18' />
+                  <column datatype='real' name='GDP_Contribution_Million_USD' ordinal='19' />
+                  <column datatype='real' name='Env_Cost_Index' ordinal='20' />
+                  <column datatype='real' name='Sustainability_Score' ordinal='21' />
+                  <column datatype='real' name='Transparency_Index' ordinal='22' />
+                  <column datatype='real' name='Compliance_Score' ordinal='23' />
+                  <column datatype='real' name='Ethical_Rating' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_3B382120421244CB9E26A0D4A49467B5]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Line Chart' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='Line Chart' />
+      </command>
+    </action>
+    <action caption='Highlight 2 (generated)' name='[Action2_E4A928500B594DFC8D97C2A6D1E497B5]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Circles'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Child Labor Incidents &amp; Ethical Rating</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='true_cost_fast_fashion' name='federated.0fxnkgh0v67wbf11hm7z20fa9hx6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fxnkgh0v67wbf11hm7z20fa9hx6'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Child Labor Incidents' datatype='integer' name='[Child_Labor_Incidents]' role='measure' type='quantitative' />
+            <column aggregation='None' datatype='integer' name='[Ethical Rating (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[Ethical_Rating]' peg='0' size='0.178' />
+            </column>
+            <column caption='Ethical Rating' datatype='real' name='[Ethical_Rating]' role='measure' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ethical Rating (bin)]' derivation='None' name='[none:Ethical Rating (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Child_Labor_Incidents]' derivation='Sum' name='[sum:Child_Labor_Incidents:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Child_Labor_Incidents:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Child_Labor_Incidents:qk]' />
+              <text column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[none:Brand:nk]' />
+              <text column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[none:Ethical Rating (bin):qk]' />
+              <color column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[none:Brand:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9CD5B56F-91B9-423C-B0E4-4AB70276A691}' />
+    </worksheet>
+    <worksheet name='Line Chart'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Monthly Waste (Tonnes)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='true_cost_fast_fashion' name='federated.0fxnkgh0v67wbf11hm7z20fa9hx6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fxnkgh0v67wbf11hm7z20fa9hx6'>
+            <column caption='Monthly Landfill Waste Tonnes' datatype='real' name='[Landfill Waste Tonnes (copy)_1080652826546597891]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Landfill_Waste_Tonnes] / 12' />
+            </column>
+            <column caption='Landfill Waste Tonnes' datatype='real' name='[Landfill_Waste_Tonnes]' role='measure' type='quantitative' />
+            <column caption='Monthly Production Tonnes' datatype='real' name='[Monthly_Production_Tonnes]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Landfill Waste Tonnes (copy)_1080652826546597891]' derivation='Sum' name='[sum:Landfill Waste Tonnes (copy)_1080652826546597891:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Monthly_Production_Tonnes]' derivation='Sum' name='[sum:Monthly_Production_Tonnes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Monthly_Production_Tonnes:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Monthly_Production_Tonnes:qk]' scope='rows' value='false' />
+            <format attr='title' class='0' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Landfill Waste Tonnes (copy)_1080652826546597891:qk]' scope='rows' value='Waste Tonnes' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[:Measure Names]' value='Measure Names'>
+              <formatted-text>
+                <run>Measure Names</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Landfill Waste Tonnes (copy)_1080652826546597891:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Monthly_Production_Tonnes:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Landfill Waste Tonnes (copy)_1080652826546597891:qk] + [federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Monthly_Production_Tonnes:qk])</rows>
+        <cols>[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{2D748D2D-393D-4D00-A578-E444E394FFE1}' />
+    </worksheet>
+    <worksheet name='Map'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Child Labor By Country</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='true_cost_fast_fashion' name='federated.0fxnkgh0v67wbf11hm7z20fa9hx6' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0fxnkgh0v67wbf11hm7z20fa9hx6'>
+            <column caption='Child Labor Incidents' datatype='integer' name='[Child_Labor_Incidents]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Child_Labor_Incidents]' derivation='Sum' name='[sum:Child_Labor_Incidents:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[Longitude (generated)]' field-type='quantitative' max='22598810.956656143' min='-22598810.956656151' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[Latitude (generated)]' field-type='quantitative' max='8030446.1741798762' min='-503979.80179414712' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Child_Labor_Incidents:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[none:Country:nk]' />
+              <color column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Child_Labor_Incidents:qk]' />
+              <geometry column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#7c4d79' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[Latitude (generated)]</rows>
+        <cols>[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{DADDBE68-A26C-434B-B29A-F437F3BE3DA3}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>GDP Contribution v. Ethical Rating</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='true_cost_fast_fashion' name='federated.0fxnkgh0v67wbf11hm7z20fa9hx6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fxnkgh0v67wbf11hm7z20fa9hx6'>
+            <column caption='Env Cost Index' datatype='real' name='[Env_Cost_Index]' role='measure' type='quantitative' />
+            <column caption='Ethical Rating' datatype='real' name='[Ethical_Rating]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='GDP Contribution Million USD (Dimension)' datatype='real' name='[GDP Contribution Million USD (copy)_1080652826553315337]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='IF[GDP_Contribution_Million_USD] &gt;= 0 THEN [GDP_Contribution_Million_USD] END' />
+            </column>
+            <column caption='GDP Contribution Million USD' datatype='real' name='[GDP_Contribution_Million_USD]' role='measure' type='quantitative' />
+            <column-instance column='[GDP Contribution Million USD (copy)_1080652826553315337]' derivation='None' name='[none:GDP Contribution Million USD (copy)_1080652826553315337:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Env_Cost_Index]' derivation='Sum' name='[sum:Env_Cost_Index:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ethical_Rating]' derivation='Sum' name='[sum:Ethical_Rating:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Ethical_Rating:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#7c4d79' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Env_Cost_Index:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#7c4d79' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Ethical_Rating:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#7c4d79' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[none:GDP Contribution Million USD (copy)_1080652826553315337:ok]</rows>
+        <cols>([federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Env_Cost_Index:qk] + [federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Ethical_Rating:qk])</cols>
+        <show-full-range>
+          <column>[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[Water Usage Million Litres (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{5065FDCE-D9C1-42AE-92CC-B07767ACC685}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{200860C9-82D8-4F22-8698-7CF5C01B8B83}' />
+    </worksheet>
+    <worksheet name='Squares'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Item Price v. Worker Wage</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='true_cost_fast_fashion' name='federated.0fxnkgh0v67wbf11hm7z20fa9hx6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fxnkgh0v67wbf11hm7z20fa9hx6'>
+            <column aggregation='Sum' caption='Avg Worker Wage USD (Play Around)' datatype='real' name='[Avg Worker Wage USD (copy)_1080652826543460353]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='IF [Avg_Worker_Wage_USD] &gt;= 0 THEN [Avg_Worker_Wage_USD] END' />
+            </column>
+            <column caption='Avg Item Price USD' datatype='real' name='[Avg_Item_Price_USD]' role='measure' type='quantitative' />
+            <column caption='Avg Worker Wage USD (Orig)' datatype='real' name='[Avg_Worker_Wage_USD]' role='measure' type='quantitative' />
+            <column-instance column='[Avg Worker Wage USD (copy)_1080652826543460353]' derivation='None' name='[none:Avg Worker Wage USD (copy)_1080652826543460353:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Avg_Item_Price_USD]' derivation='Sum' name='[sum:Avg_Item_Price_USD:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Avg_Item_Price_USD:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Avg_Item_Price_USD:qk]' value='Avg Item Price (USD)'>
+              <formatted-text>
+                <run>Avg Item Price (USD)</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Avg_Item_Price_USD:qk]' />
+              <color column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Avg_Item_Price_USD:qk]' />
+              <text column='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[none:Avg Worker Wage USD (copy)_1080652826543460353:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{66376993-EFF8-414E-A41C-3DAC40A748E0}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone friendly-name='Vertical Cont. (Main)' h='97048' id='3' param='vert' type-v2='layout-flow' w='98504' x='748' y='1476'>
+            <zone fixed-size='27' h='6458' id='5' is-fixed='true' type-v2='empty' w='97942' x='1029' y='2030'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone friendly-name='Horizontal Cont. (Title)' h='6827' id='6' param='horz' type-v2='layout-flow' w='97942' x='1029' y='8488'>
+              <zone forceUpdate='true' h='5719' id='7' type-v2='text' w='97380' x='1310' y='9042'>
+                <formatted-text>
+                  <run fontsize='16'>Fast Fashion Impact</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#7c4d79' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='3' />
+                <format attr='background-color' value='#eec9e5' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='200' h='36900' id='8' is-fixed='true' param='horz' type-v2='layout-flow' w='97942' x='1029' y='15315'>
+              <zone fixed-size='203' h='35792' id='14' is-fixed='true' name='Squares' w='19738' x='1310' y='15869'>
+                <layout-cache fixed-size-h='185' type-h='fixed' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='35792' id='10' name='Line Chart' w='77642' x='21048' y='15869'>
+                <layout-cache minheight='199' minwidth='168' type-h='scalable' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#7c4d79' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='3' />
+                <format attr='background-color' value='#eec9e5' />
+              </zone-style>
+            </zone>
+            <zone h='5904' id='16' type-v2='empty' w='97942' x='1029' y='52215'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='39851' id='17' param='horz' type-v2='layout-flow' w='97942' x='1029' y='58119'>
+              <zone fixed-size='545' h='38743' id='20' is-fixed='true' name='Circles' w='51730' x='1310' y='58673'>
+                <layout-cache fixed-size-h='258' type-h='fixed' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='38743' id='18' name='Map' w='45650' x='53040' y='58673'>
+                <layout-cache minheight='244' minwidth='202' type-h='scalable' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#7c4d79' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='3' />
+                <format attr='background-color' value='#eec9e5' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#7c4d79' />
+              <format attr='border-style' value='solid' />
+              <format attr='border-width' value='3' />
+              <format attr='background-color' value='#eec9e5' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='11786' id='9' param='horz' type-v2='layout-flow' w='33231' x='63231' y='10357'>
+          <zone h='10678' id='11' name='Line Chart' pane-specification-id='1' param='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[:Measure Names]' type-v2='color' w='8167' x='63512' y='10911'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10678' id='15' name='Squares' pane-specification-id='0' param='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Avg_Item_Price_USD:qk]' type-v2='color' w='8167' x='71679' y='10911'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10678' id='19' name='Map' pane-specification-id='0' param='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Child_Labor_Incidents:qk]' type-v2='color' w='8167' x='79846' y='10911'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10678' id='21' name='Circles' pane-specification-id='0' param='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[none:Brand:nk]' type-v2='color' w='8168' x='88013' y='10911'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#7c4d79' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='3' />
+            <format attr='background-color' value='#eec9e5' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FABD5BA0-97DB-499D-B449-0322A2B8D0BD}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Line Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{80520B50-75EA-4F13-A878-BA77EA2EEC4D}' />
+    </window>
+    <window class='worksheet' name='Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Child_Labor_Incidents:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1CDEDFCB-C74A-48F5-AB92-EE431D7395F5}' />
+    </window>
+    <window class='worksheet' name='Squares'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[sum:Avg_Item_Price_USD:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3C7E077D-0802-4886-8FB1-56BB6D1FD004}' />
+    </window>
+    <window class='worksheet' name='Circles'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[none:Brand:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2A115C7C-8C8F-456C-9222-898116CA1F32}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.0fxnkgh0v67wbf11hm7z20fa9hx6].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C1B8B766-6C8B-4306-8986-81BE9D60690F}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0D595C12-D752-4338-B153-1F634FFF9152}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Circles' />
+        <viewpoint name='Line Chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Squares' />
+      </viewpoints>
+      <active id='20' />
+      <simple-id uuid='{28246BFE-4549-40CA-A722-ABDF4E8226E9}' />
+    </window>
+  </windows>
+</workbook>
